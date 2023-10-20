@@ -1,0 +1,90 @@
+/* ====================================================================
+                                RESET
+=====================================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ====================================================================
+
+=====================================================================*/
+main {
+  text-align: center;
+  padding: 5%;
+}
+main section {
+  max-width: 30%;
+  padding: 50px 30px;
+  border-radius: 15px;
+  background-color: #FDC692;
+  margin: 50px auto;
+}
+main section h2 {
+  font-size: 3rem;
+}
+main section form article {
+  text-align: left;
+}
+main section form article div {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+main section form article div input,
+main section form article div select {
+  margin: 10px 0;
+  min-width: 250px;
+  max-width: 300px;
+  border: none;
+  padding: 8px;
+}
+main section form article div img {
+  width: 32px;
+  height: 32px;
+}
+main section form article div span {
+  font-size: 35px;
+  position: relative;
+  left: -40px;
+}
+main section form label {
+  padding-top: 50px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+main section form select {
+  margin: 50px auto;
+  max-width: 300px;
+  border: none;
+  padding: 8px;
+  font-size: 1rem;
+  display: block;
+}
+main section input[type=submit] {
+  border: none;
+  padding: 10px 30px;
+  background-color: #06c1ff;
+  border-radius: 20px;
+}
+main section .resultContainer {
+  padding: 20px 5px;
+  text-align: left;
+}
+main section .resultContainer p {
+  margin: 20px 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Projects-JS-Einführung-Level-2_2</title>
+</head>
+<body>
+    <main>
+        <h1>
+            Das Design könnt ihr frei wählen 🚀
+        </h1>
+        <section>
+            <h2>Give me Money</h2>
+            <form>
+                <article>
+                    <label for="">Rechnungsbetrag:</label>
+                    <div>
+                        <img src="./assets/img/1.png" alt="Geldbeutel mit € Zeichen">
+                        <input type="number" name="" id="rechnung" >
+                        <span>€</span>
+                    </div>
+                </article>
+                <article>
+                    <label for="">Personenanzahl:</label>
+                    <div>
+                        <img src="./assets/img/2.png" alt=" kleines Bild mit paar personen">
+                        <select name="" id="personenAnzahl">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                    </div>
+                </article>
+
+                </select>
+                <select name="" id="serviceQualität" >
+                    <option value="" selected="selected">
+                        Wie war der Service
+                    </option>
+                    <option value="perfect">Perfect</option>
+                    <option value="gut">Gut</option>
+                    <option value="schlecht">Schlecht</option>
+                </select>
+                <input type="submit" value="Berechnen" onclick="berechne()">
+            </form>
+            <article class="resultContainer">
+                <p></p>
+                <p></p>
+                <p></p>
+            </article>
+        </section>
+    </main>
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
